@@ -1,7 +1,18 @@
+[ja]
+    languageName = "日本語"
+    contentDir = "content/ja"
+    weight = 1
+    [ja.params.head]
+        tagline = "A Hugo Theme"
+    [ja.params.social]
+        title = "ようこそ"
+        caption = "I work on everything coding and tweet developer memes"
+    [ja.params.footer]
+        # license = "Licensed under Creative Commons (<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' class='link-secondary' target='_blank' rel='noopener noreferrer'>CC BY-NC-SA 4.0</a>)."
 [en]
     languageName = "English"
-    contentDir = "content"
-    weight = 1
+    contentDir = "content/en"
+    weight = 2
     [en.params.head]
         tagline = "A Hugo Theme"
     [en.params.social]
@@ -9,3 +20,4 @@
         caption = "I work on everything coding and tweet developer memes"
     [en.params.footer]
         # license = "Licensed under Creative Commons (<a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' class='link-secondary' target='_blank' rel='noopener noreferrer'>CC BY-NC-SA 4.0</a>)."
+
