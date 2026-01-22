@@ -1,6 +1,7 @@
 ---
 author: Katheryn Fox
-title: Projects
+title: Docs
 type: "docs"
-lyaout: "list"
+layout: "list"
+menu: "docs"
 ---

@@ -7,6 +7,7 @@ tags: ["javascript", "golang"]
 icon: fas rocket
 layout: "single"
 toc: true
+menu: "docs"
 ---
 
 # H1

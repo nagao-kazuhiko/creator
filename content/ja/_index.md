@@ -16,7 +16,7 @@ content_blocks:
       ratio: 16x9
       width: 6
     links:
-      - title: Getting started
+      - title: さらに詳しく
         url: https://gethinode.com/docs
         icon: fas chevron-right
     orientation: horizontal
@@ -25,7 +25,7 @@ content_blocks:
 
   - _bookshop_name: articles
     heading:
-      title: Blog
+      title: News
       align: start
     input:
       section: blog
@@ -35,7 +35,7 @@ content_blocks:
     hide-empty: false
     header-style: none
     more:
-      title: More Posts
+      title: もっとみる
     padding: 0
     limit: 3
     class: border-0 card-zoom card-body-margin
@@ -52,7 +52,7 @@ content_blocks:
       reverse: false
       sort: date
     more:
-      title: More articles
+      title: もっとみる
     cols: 1
     padding: 4
     limit: 2

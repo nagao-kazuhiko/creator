@@ -32,11 +32,11 @@
     purgeHTMLComments = true # prevents a Goldmark warning when processing HTML comments (as used by markdownlint)
     includeSVGOrigin = true
 
-[docs]
-    basePath = "/"
-    github = "https://github.com/gethinode/hinode"
-    release = "https://github.com/gethinode/hinode/releases/tag/"
-    checkVersion = false
+# [docs]
+#     basePath = "docs"
+#     github = "https://github.com/gethinode/hinode"
+#     release = "https://github.com/gethinode/hinode/releases/tag/"
+#     checkVersion = false
 
 [navigation]
     anchor = true

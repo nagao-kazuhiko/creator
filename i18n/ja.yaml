@@ -1,12 +1,12 @@
 # Single pages
 - id: postedOnDate
-  translation: "Posted on {{ . }}"
+  translation: "掲載 {{ . }}"
 - id: lastModified
-  translation: "Last modified on {{ . }}"
+  translation: "更新 {{ . }}"
 - id: read
-  translation: "read"
+  translation: ""
 - id: minutesShort
-  translation: "min"
+  translation: "分"
 - id: words
   translation: "words"
 - id: photoFull
@@ -16,7 +16,7 @@
 - id: photoOn
   translation: "on"
 - id: draft
-  translation: "Draft"
+  translation: "下書き"
 
 # List pages
 - id: article
@@ -24,27 +24,21 @@
 - id: articles
   translation: "Articles"
 - id: more
-  translation: "More {{ . }}"
+  translation: "もっと {{ . }}"
 - id: emptyList
-  translation: "No articles found"
+  translation: "記事が見つかりません"
 - id: emptyTags
-  translation: "No tags found"
+  translation: "Tagがありません"
 - id: readMore
-  translation: "Read more"
+  translation: "さらに読む"
 
 # Languages
-- id: lang_de
-  translation: "German"
 - id: lang_en
   translation: "English"
-- id: lang_nl
-  translation: "Dutch"
-- id: lang_fr
-  translation: "French"
 
 # Sharing
 - id: shareLink
-  translation: "Share via {{ . }}"
+  translation: "Share  {{ . }}"
 - id: shareSystem
   translation: "system"
 - id: copyToClipboard
@@ -60,7 +54,7 @@
 
 # Hero
 - id: backgroundImage
-  translation: "Background image"
+  translation: "背景"
 - id: heroImage
   translation: "Hero image"
 
@@ -68,13 +62,13 @@
 - id: paginationNav
   translation: "Page navigation"
 - id: paginationPrevious
-  translation: "Previous page"
+  translation: "前頁"
 - id: paginationNext
-  translation: "Next page"
+  translation: "次頁"
 - id: paginationFirst
-  translation: "First page"
+  translation: "先頭"
 - id: paginationLast
-  translation: "Last page"
+  translation: "末尾"
 
 # Navigation
 - id: colorMode
@@ -130,7 +124,7 @@
 - id: pageNotFound
   translation: "The page you are looking for does not exist or another error occurred. Try going back to our {{ . }}."
 - id: pageNotFoundTitle
-  translation: "Page not found"
+  translation: "ページがありません"
 - id: pageNotFoundHome
   translation: "home page"
 

@@ -8,6 +8,47 @@
   pageRef = "/tags"
   weight = 20
 
+[[main]]
+  identifier = "docs"
+  name = "Docs"
+  pageRef = "#"
+  weight = 25
+
+[[main]]
+  parent = "docs"
+  name = "project-1"
+  pageRef = "docs/sample-project"
+  weight = 10
+
+[[main]]
+  parent = "docs"
+  name = "project-2"
+  pageRef = "docs/another-project"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "/tags"
+  weight = 30
+
+[[docs]]
+  identifier = "docs"
+  name = "Docs"
+  pageRef = "docs"
+  weight = 100
+
+[[docs]]
+  parent = "docs"
+  name = "p1"
+  pageRef = "sample-project"
+  weight = 10
+
+[[docs]]
+  parent = "docs"
+  name = "p2"
+  pageRef = "another-project"
+  weight = 20
+
 [[social]]
   name = "LinkedIn"
   pre = "fab linkedin"
